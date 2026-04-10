@@ -39,6 +39,7 @@ bash hb_monitor.sh
 ```
 dvd-ripper/
 ├── install.sh           # installs all dependencies (Arch, Ubuntu, Fedora)
+├── uninstall.sh         # removes all installed tools and config
 ├── setup.sh             # first-run config wizard — auto-detects drives
 ├── dvd_rip.sh           # main ripping and encoding script
 ├── hb_monitor.sh        # live HandBrake progress monitor
@@ -70,11 +71,11 @@ dvd-ripper/
 
 | Guide | Description |
 |---|---|
-| [Installation](docs/INSTALLATION.md) | Manual install, build from source, distro-specific steps |
-| [Distrobox](docs/DISTROBOX.md) | Running inside a container — recommended for source builds |
-| [Configuration](docs/CONFIGURATION.md) | Config file reference, TMDB API setup, encoding presets |
-| [Kodi Setup](docs/KODI.md) | Adding your library to Kodi |
-| [Troubleshooting](docs/TROUBLESHOOTING.md) | Common issues and fixes |
+| [Installation](./docs/INSTALLATION.md) | Manual install, build from source, distro-specific steps |
+| [Distrobox](./docs/DISTROBOX.md) | Running inside a container — recommended for source builds |
+| [Configuration](./docs/CONFIGURATION.md) | Config file reference, TMDB API setup, encoding presets |
+| [Kodi Setup](./docs/KODI.md) | Adding your library to Kodi |
+| [Troubleshooting](./docs/TROUBLESHOOTING.md) | Common issues and fixes |
 
 ---
 
