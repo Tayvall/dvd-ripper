@@ -71,21 +71,22 @@ dvd-ripper/
 
 | Guide | Description |
 |---|---|
-| [Installation](./docs/INSTALLATION.md) | Manual install, build from source, distro-specific steps |
-| [Distrobox](./docs/DISTROBOX.md) | Running inside a container — recommended for source builds |
-| [Configuration](./docs/CONFIGURATION.md) | Config file reference, TMDB API setup, encoding presets |
-| [Kodi Setup](./docs/KODI.md) | Adding your library to Kodi |
-| [Troubleshooting](./docs/TROUBLESHOOTING.md) | Common issues and fixes |
+| [Installation](./INSTALLATION.md) | Manual install, build from source, distro-specific steps |
+| [Distrobox](./DISTROBOX.md) | Running inside a container — recommended for source builds |
+| [Configuration](./CONFIGURATION.md) | Config file reference, TMDB API setup, encoding presets |
+| [Kodi Setup](./KODI.md) | Adding your library to Kodi |
+| [Troubleshooting](./TROUBLESHOOTING.md) | Common issues and fixes |
 
 ---
 
 ## Roadmap
 
 - [ ] GUI frontend
-- [ ] Jellyfin library support
-- [ ] Blu-ray support
+~~- [ ] Jellyfin library support~~
+- [x] Blu-ray support
 - [ ] NVENC/GPU encoding preset in setup wizard
 - [ ] Resume interrupted encodes
+- [ ] Simplify the look of setup script
 
 ---
 
