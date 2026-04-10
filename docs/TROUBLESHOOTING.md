@@ -33,7 +33,7 @@ echo "sg" | sudo tee /etc/modules-load.d/sg.conf
 ldconfig -p | grep dvdcss
 ```
 
-If nothing is returned, libdvdcss is not installed. See the [Installation guide](INSTALLATION.md) for distro-specific install steps or build from source.
+If nothing is returned, libdvdcss is not installed. See the [Installation guide](./INSTALLATION.md) for distro-specific install steps or build from source.
 
 ---
 
@@ -55,7 +55,7 @@ If this fails, the drive is either not mounted correctly or the disc is unreadab
 
 Inside a Distrobox container, the disc label is read via `distrobox-host-exec sudo blkid`. This requires passwordless sudo access for `blkid` on the host.
 
-See the [Distrobox guide](DISTROBOX.md#allowing-passwordless-blkid-required) for setup instructions for your distro.
+See the [Distrobox guide](./DISTROBOX.md#allowing-passwordless-blkid-required) for setup instructions for your distro.
 
 To test manually inside the container:
 
@@ -148,4 +148,4 @@ The `libdvd-pkg` post-install script uses `dialog` which doesn't support non-sta
 sudo DEBIAN_FRONTEND=noninteractive TERM=xterm-256color dpkg-reconfigure libdvd-pkg
 ```
 
-If it still fails, build libdvdcss from source — see the [Installation guide](INSTALLATION.md).
+If it still fails, build libdvdcss from source — see the [Installation guide](./INSTALLATION.md).

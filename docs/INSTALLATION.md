@@ -17,7 +17,7 @@ MakeMKV is built from source automatically if no AUR package is available.
 
 ## Manual / Build from Source
 
-If you prefer to keep everything contained and isolated, see the [Distrobox guide](DISTROBOX.md) first — it is the recommended approach for source builds.
+If you prefer to keep everything contained and isolated, see the [Distrobox guide](./DISTROBOX.md) first — it is the recommended approach for source builds.
 
 ### 1. Install build dependencies
 
@@ -109,4 +109,4 @@ which HandBrakeCLI
 ldconfig -p | grep dvdcss
 ```
 
-All three should return paths. If anything is missing, re-run `install.sh` or check the [Troubleshooting guide](TROUBLESHOOTING.md).
+All three should return paths. If anything is missing, re-run `install.sh` or check the [Troubleshooting guide](./TROUBLESHOOTING.md).
