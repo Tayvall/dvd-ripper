@@ -1,7 +1,6 @@
 # 📀 dvd-ripper
 
 A command-line DVD ripping and encoding tool for Linux. Rips your DVD collection to MKV files, automatically names them using TMDB metadata, and outputs a Kodi-compatible library structure.
-<small>Claude Code HAS been used to make files more readable so please ensure you check for any errors as I do try my best to catch them!</small>
 
 ---
 
