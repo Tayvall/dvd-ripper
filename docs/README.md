@@ -82,7 +82,7 @@ dvd-ripper/
 ## Roadmap
 
 - [ ] GUI frontend
-~~- [ ] Jellyfin library support~~
+- [ ] ~~Jellyfin library support~~
 - [x] Blu-ray support
 - [ ] NVENC/GPU encoding preset in setup wizard
 - [ ] Resume interrupted encodes
